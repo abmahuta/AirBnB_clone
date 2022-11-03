@@ -8,7 +8,6 @@ from datetime import datetime
 from models import storage
 
 
-
 class BaseModel:
 
     """Class for base model of object hierarchy."""
