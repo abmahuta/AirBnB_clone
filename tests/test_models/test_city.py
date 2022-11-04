@@ -1,4 +1,5 @@
-ttest module for the City Class."""
+#!/usr/bin/python3
+"""Unittest module for the City Class."""
 
 import unittest
 from datetime import datetime
@@ -49,3 +50,4 @@ class TestCity(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+Footer

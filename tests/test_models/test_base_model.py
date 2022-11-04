@@ -35,9 +35,6 @@ class TestBaseModel(unittest.TestCase):
     def test_3_instantiation(self):
         """Tests instantiation of BaseModel class."""
 
-def testt_3_instantiation(self):
-        """Tests instantiation of BaseModel class."""
-
         b = BaseModel()
         self.assertEqual(str(type(b)), "<class 'models.base_model.BaseModel'>")
         self.assertIsInstance(b, BaseModel)
@@ -194,3 +191,4 @@ def testt_3_instantiation(self):
 
 if __name__ == '__main__':
     unittest.main()
+Footer
